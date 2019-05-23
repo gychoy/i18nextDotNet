@@ -32,6 +32,7 @@
   "dependencies": {
     "aurelia-binding": "^2.3.0",
     "aurelia-i18n": "^2.3.2",
-    "i18next-xhr-backend": "^2.0.1"
+    "i18next-xhr-backend": "^2.0.1",
+    "moment": "^2.24.0"
   }
 }

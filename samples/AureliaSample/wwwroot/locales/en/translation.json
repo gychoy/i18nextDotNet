@@ -14,5 +14,5 @@
     "namespacefallbacktest": "Testing namespace fallback. This is from translation.json.",
     "languagefallbacktests": "Testing language fallback. This is from en/translation.json",
     "similarkeyfallbacktest": "Testing similar key fallback. This is from root similarkeyfallbacktest",
-    "dateFormattedText": "This page was rendered on {{date, yyyy/mm/dd}}."
+    "dateFormattedText": "This page was rendered on {{- date, MM/DD/YYYY}}."
 }

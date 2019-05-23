@@ -1,5 +1,6 @@
 import { autoinject } from "aurelia-framework";
 import { I18N } from "aurelia-i18n";
+import * as moment from 'moment';
 
 @autoinject
 export class Home {

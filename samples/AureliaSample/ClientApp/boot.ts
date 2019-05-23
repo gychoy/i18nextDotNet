@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap';
 import { I18N, TCustomAttribute } from 'aurelia-i18n';
 import Backend from 'i18next-xhr-backend';
+import * as moment from 'moment';
 declare const IS_DEV_BUILD: boolean; // The value is supplied by Webpack during the build
 
 export function configure(aurelia: Aurelia) {
@@ -33,7 +34,15 @@ export function configure(aurelia: Aurelia) {
                     'Accept' : '*/*'
                 },
                 loadPath: '/locales/{{lng}}/{{ns}}.json', // <-- XHR settings for where to get the files from
-            },            
+            },
+            interpolation: {
+                format: function (value:any, format:any, lng:any) {
+                    if (value instanceof Date)
+                        return moment(value).format(format);
+
+                    return value;
+                }
+            },
             attributes: aliases,
             lng: 'en',
             fallbackLng: 'en',

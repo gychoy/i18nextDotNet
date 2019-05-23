@@ -34,7 +34,8 @@ module.exports = ({ prod } = {}) => {
                 'aurelia-i18n',
                 'bootstrap',
                 'bootstrap/dist/css/bootstrap.css',
-                'jquery'
+                'jquery',
+                'moment'
             ],
         },
         output: {
