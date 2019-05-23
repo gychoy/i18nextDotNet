@@ -1,0 +1,12 @@
+{
+    "page": {
+        "title": "This is a translated page title from Business 1"
+    },
+    "about": {
+        "description": "This is the description of your about page.11 from Business 1",
+        "renderedOn": "This page was rendered on {{date, yyyy/mm/dd}} from Business 1.",
+        "additionalInformation": "additional information from Business 1",
+        "infoText": "Use this area to provide $t(about.additionalInformation) from Business 1."
+    },
+    "description": "This is the description of your about page from Business 1."
+}

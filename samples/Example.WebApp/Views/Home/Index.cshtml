@@ -1,0 +1,17 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@{
+    ViewData["Title"] = "Home Page";
+}
+@inject IViewLocalizer Localizer
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Translation Tests</h2>
+        <ul>
+            <li>@Localizer["about.happyPathText"]</li>
+            <li>@Localizer["about.similarkeyfallbacktest"]</li>
+            <li>@Localizer["languagefallbacktests"]</li>
+            <li>@Localizer["business1:namespacefallbacktest"]</li>
+        </ul>
+    </div>    
+</div>
