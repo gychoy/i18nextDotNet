@@ -8,7 +8,7 @@ export class Home {
     public title: string;
 
     constructor(private i18n: I18N) {
-        this.title = this.i18n.i18next.t("page.title1", "Page Title");
+        this.title = this.i18n.i18next.t("page.title", "Page Title");
         this.today = new Date();
     }
 }
