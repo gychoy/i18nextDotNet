@@ -1,18 +1,11 @@
 {
-    "page": {
-        "title": "This is a translated page title"
-    },
-    "about": {
-        "description": "This is the description of your about page.11",
-        "renderedOn": "This page was rendered on {{date, yyyy/mm/dd}}.",
-        "additionalInformation": "additional information",
-        "infoText": "Use this area to provide $t(about.additionalInformation).",
-        "happyPathText": "This is in about.happyPathText"
-    },
+    "title": "This is a translated page title",
+    "happyPathText": "This is in about.happyPathText",
     "description": "This is the description of your about page.",
     "someOtherText": "Some other text.",
     "namespacefallbacktest": "Testing namespace fallback. This is from translation.json.",
     "languagefallbacktests": "Testing language fallback. This is from en/translation.json",
     "similarkeyfallbacktest": "Testing similar key fallback. This is from root similarkeyfallbacktest",
-    "dateFormattedText": "This page was rendered on {{- date, MM/DD/YYYY}}."
+    "dateFormattedText": "This page was rendered on {{- date, MM/DD/YYYY}}.",
+    "currencyFormattedText": "This cost exactly {{- dollar}}."
 }

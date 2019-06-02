@@ -1,11 +1,11 @@
 <template>
-    <h1>Hello, world!</h1>
-    <p>${title}</p>
+    <h1>${title}</h1>
     <ul>
-        <li><label t="about.happyPathText">happyPathText</label></li>
+        <li><label t="happyPathText">happyPathText</label></li>
         <li><label t="about.similarkeyfallbacktest">similarkeyfallbacktest</label></li>
         <li><label t="languagefallbacktests">languagefallbacktests</label></li>
         <li><label t="business1:namespacefallbacktest">namespacefallbacktest</label></li>
         <li><label t="dateFormattedText" t-params.bind="{ date: today }">namespacefallbacktest</label></li>
+        <li><label t="currencyFormattedText" t-params.bind="{ dollar: anotherMoneyAmount }">namespacefallbacktest</label></li>
     </ul>
 </template>

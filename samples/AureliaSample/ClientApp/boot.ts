@@ -6,6 +6,7 @@ import 'bootstrap';
 import { I18N, TCustomAttribute } from 'aurelia-i18n';
 import Backend from 'i18next-xhr-backend';
 import * as moment from 'moment';
+import * as numeral from 'numeral';
 declare const IS_DEV_BUILD: boolean; // The value is supplied by Webpack during the build
 
 export function configure(aurelia: Aurelia) {
